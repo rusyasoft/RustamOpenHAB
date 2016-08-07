@@ -3,14 +3,14 @@
 This repository contains my public OpenHAB contributions
 
 
-## How to Make it Work after:
+## How to Make it work:
 
-1. Just drop into addons folder after building jar bundle
-2. The following line should be added at items file
+- Just drop into addons folder after building jar bundle
+- The following line should be added at items file:
 	
 	Switch LifxToggle_1   "lifx bulb"   (Switching) {rustamlifx="1"}
 	
-3. The following line should be added at sitemap file
+- The following line should be added at sitemap file:
 
 	Switch         item=LifxToggle_1       label="LifxBedroom"
 	
